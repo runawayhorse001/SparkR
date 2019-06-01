@@ -1,7 +1,7 @@
 .. _install:
 
 ===================
-Python Installation
+SparkR Installation
 ===================
 
 .. |py| replace:: ``Python``

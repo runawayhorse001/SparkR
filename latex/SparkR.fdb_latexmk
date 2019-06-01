@@ -1,10 +1,10 @@
 # Fdb version 3
-["makeindex SparkR.idx"] 1559410375 "SparkR.idx" "SparkR.ind" "SparkR" 1559411068
-  "SparkR.idx" 1559411065 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex SparkR.idx"] 1559410375 "SparkR.idx" "SparkR.ind" "SparkR" 1559416285
+  "SparkR.idx" 1559416285 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "SparkR.ilg"
   "SparkR.ind"
-["pdflatex"] 1559411065 "SparkR.tex" "SparkR.pdf" "SparkR" 1559411068
+["pdflatex"] 1559416285 "SparkR.tex" "SparkR.pdf" "SparkR" 1559416286
   "/etc/texmf/web2c/texmf.cnf" 1467775506 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -150,22 +150,22 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503347518 31075 dbb81bd39d798acf14cc121a151f7fe7 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1503445228 1346346 7f2b8b715a9ddb095afe3697a6ba02b5 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1541126752 3822874 7e47a501d401676e8c574051695f2794 ""
-  "SparkR.aux" 1559411066 3466 de61d61d47bdfe5544ccfa21cbd1a56b ""
+  "SparkR.aux" 1559416285 3466 57ea8b9c5bcb3d944c4b691820bd164f ""
   "SparkR.ind" 1559410375 0 d41d8cd98f00b204e9800998ecf8427e "makeindex SparkR.idx"
-  "SparkR.out" 1559411066 1557 a3806b1ae834953f309b201354ce188f ""
-  "SparkR.tex" 1559410976 12191 4529f77fad0e603d39a9b532d78c149e ""
-  "SparkR.toc" 1559411066 856 df8658d072c387462206b66f45d8a99d ""
+  "SparkR.out" 1559416285 1557 05870b85ec24186cd5570c2db95376d2 ""
+  "SparkR.tex" 1559416284 12191 13b8a45bbb95da93d191cd97e31dccb7 ""
+  "SparkR.toc" 1559416285 856 788243036be3b5e5ba6666c1d89b8f10 ""
   "anaconda.png" 1551495653 659232 0ce52b997f69d8bdb8ef8eccef3f0721 ""
   "footnotehyper-sphinx.sty" 1541915241 8888 1bbd7bdeae8c8bed1d10d551bddb1cc9 ""
   "logo.png" 1495488745 27272 92d2156a67ec7dc71f358f9ae8e8c032 ""
   "sphinx.sty" 1541915241 70118 f807c5026ba071ecd262ad95f7be3e15 ""
-  "sphinxhighlight.sty" 1559411068 8137 38a433148fcb7611515a989ff1750dd5 ""
+  "sphinxhighlight.sty" 1559416284 8137 38a433148fcb7611515a989ff1750dd5 ""
   "sphinxmanual.cls" 1541915241 3529 fa4d4e9f811425ef5966e441eeee9f7f ""
   "sphinxmulticell.sty" 1541915241 14618 0defbdc8536ad2e67f1eac6a1431bc55 ""
   (generated)
-  "SparkR.idx"
-  "SparkR.pdf"
-  "SparkR.log"
-  "SparkR.toc"
-  "SparkR.aux"
   "SparkR.out"
+  "SparkR.aux"
+  "SparkR.pdf"
+  "SparkR.idx"
+  "SparkR.toc"
+  "SparkR.log"

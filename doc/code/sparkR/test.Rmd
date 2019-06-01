@@ -1,0 +1,71 @@
+---
+title: "test"
+author: "Wenqiang Feng"
+date: "June 1, 2019"
+output: html_document
+---
+
+%```{r setup, include=FALSE}
+%knitr::opts_chunk$set(echo = TRUE)
+%```
+
+## Start Spark Session 
+
+```{r}
+library(sparklyr)
+library(dplyr)
+library(nycflights13)
+library(ggplot2)
+sc <- spark_connect(master="local")
+```
+
+## Create DataFrame
+
+```{r}
+flights <- copy_to(sc, flights, "flights")
+```
+
+
+```{r}
+schema(df)
+```
+
+
+```{r}
+head(df)
+```
+
+## Register this SparkDataFrame
+
+```{r}
+# Register this SparkDataFrame as a temporary view.
+createOrReplaceTempView(df, "df")
+```
+
+## SQL query
+
+```{r}
+# SQL statements can be run by using the sql method
+test <- sql("SELECT GNP, Year FROM df WHERE Year >= 1947")
+head(test)
+```
+
+## GBT model
+
+
+```{r}
+ model <- spark.gbt(df, Employed ~ ., type = "regression", maxDepth = 5, maxBins = 16)
+```
+
+
+```{r}
+summary(model)
+```
+
+```{r}
+predictions <- predict(model, df)
+```
+
+```{r}
+head(predictions)
+```

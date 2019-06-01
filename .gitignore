@@ -135,3 +135,4 @@ target/
 etc/keys/*.asc
 
 
+.Rproj.user
