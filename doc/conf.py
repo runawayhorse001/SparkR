@@ -77,7 +77,7 @@ master_doc = 'index'
 
 # General substitutions.
 project = ' Learning Apache Spark with R'
-copyright = '2019, Wenqiang Feng, Wenhao Wang and Zhi Zheng'
+copyright = '2019, Wenqiang Feng and Zhi Zheng'
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.
@@ -277,7 +277,7 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
   ('index', 'SparkR.tex', project,
-   'Wenqiang Feng, Wenhao Wang and Zhi Zheng', 'manual'),
+   'Wenqiang Feng and Zhi Zheng', 'manual'),
 ]
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.

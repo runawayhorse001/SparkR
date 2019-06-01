@@ -42,18 +42,12 @@ About the authors
 	
   * Data Scientist and PhD in Mathematics 
   * University of Tennessee at Knoxville
-  * Email: von198@gmail.com
-
-  **Wenhao Wang** 
-  
-  *   and PhD in   
-  * The University of Kansas
-  * Email:      
+  * Email: von198@gmail.com   
 
   **James Zheng** 
   
-  * Sr. Data Scientist and PhD in   
-  * University of Tennessee at Knoxville
+  * Sr. Data Scientist    
+  * University of 
   * Email: 
 
 * **Biography**
